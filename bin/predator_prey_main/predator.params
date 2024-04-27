@@ -1,0 +1,65 @@
+parent.0 = koza.params
+
+#gp.tree.print-style=latex
+# we have one function set, of class GPFunctionSet
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+
+# We will call the function set "f0".
+
+gp.fs.0.name = f0
+
+# We have five functions in the function set. They are:
+
+gp.fs.0.size = 5
+
+-------------------------------------------------
+#Modified Section:
+
+gp.fs.0.func.0 = functions.PredMoves
+gp.fs.0.func.0.nc = nc0
+
+gp.fs.0.func.1 = functions.PreyMoves
+gp.fs.0.func.1.nc = nc0
+
+gp.fs.0.func.2 = functions.Left
+gp.fs.0.func.2.nc = nc0
+
+gp.fs.0.func.3 = functions.Right
+gp.fs.0.func.3.nc = nc2
+
+gp.fs.0.func.4 = functions.PreyRight
+gp.fs.0.func.4.nc = nc2
+
+pop.subpop.0.size = 1024
+generations = 51
+
+select.tournament.size = 3
+
+jobs=3
+
+eval.problem = predator_prey_main.PredatorPrey
+eval.problem.data = ec.gp.GPData
+eval.problem.moves = 600
+eval.problem.max-x = 30
+eval.problem.max-y = 30
+eval.problem.prey_amount = 30
+
+pop = ec.Population
+pop.subpops = 2
+pop.default-subpop = 0
+pop.subpop.0.species = ec.gp.GPSpecies
+pop.subpop.0.species.ind = ec.gp.GPIndividual
+pop.subpop.0.duplicate-retries = 100
+pop.subpop.0.species.ind.numtrees = 1
+pop.subpop.0.species.ind.tree.0 = ec.gp.GPTree
+
+
+# output Statistics to the file "out.stat" in the directory
+# the run was started in 
+stat.file					$out.stat
+
+
+
+

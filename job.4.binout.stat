@@ -1,0 +1,1377 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ left
+Tree 1:
+ prey_right
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-behind left move)
+     left)
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_move prey_move))
+     (progn2 (progn2 prey_right prey_right) (progn2
+         prey_right prey_move))) (progn2 (progn2 (progn2
+     prey_right prey_right) (progn2 prey_move
+     prey_move)) (progn2 (progn2 prey_move prey_move)
+     (progn2 prey_right prey_move)))) (progn2
+     (progn2 (progn2 (progn2 prey_right prey_right)
+         (progn2 prey_right prey_move)) (progn2 (progn2
+         prey_move prey_right) (progn2 prey_right
+         prey_right))) (progn2 (progn2 (progn2 prey_move
+     prey_right) (progn2 prey_move prey_right))
+     (progn2 (progn2 prey_right prey_move) (progn2
+         prey_right prey_move)))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ move
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_move prey_move))
+     (progn2 (progn2 prey_move prey_move) (progn2
+         prey_right prey_right))) (progn2 (progn2
+     (progn2 prey_right prey_right) (progn2 prey_move
+     prey_right)) (progn2 (progn2 prey_move prey_right)
+     (progn2 prey_right prey_move)))) (progn2
+     (progn2 (progn2 (progn2 prey_right prey_move)
+         (progn2 prey_right prey_move)) (progn2 (progn2
+         prey_right prey_move) (progn2 prey_move prey_move)))
+     (progn2 (progn2 (progn2 prey_move prey_right)
+         (progn2 prey_move prey_move)) (progn2 (progn2
+         prey_right prey_move) (progn2 prey_right
+         prey_right)))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead left (if-prey-left (if-prey-left
+     (if-prey-left left move) (if-prey-left right
+     right)) (if-prey-ahead move (if-prey-left
+     (if-prey-left move (if-prey-behind move right))
+     (progn2 right (if-prey-behind move right))))))
+Tree 1:
+ (progn2 (progn2 prey_right prey_right) (progn2
+     prey_move prey_right))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-ahead left left) (if-prey-ahead
+     move left))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 prey_move
+     prey_move) (progn2 prey_right prey_right))
+     (progn2 (progn2 prey_move prey_move) (progn2
+         prey_move prey_move))) (progn2 (progn2 (progn2
+     prey_right prey_move) (progn2 prey_right
+     prey_right)) (progn2 (progn2 prey_right prey_right)
+     (progn2 prey_move prey_right)))) (progn2
+     (progn2 (progn2 (progn2 prey_right prey_move)
+         (progn2 prey_right prey_move)) (progn2 (progn2
+         prey_right prey_right) (progn2 prey_move
+         prey_move))) (progn2 (progn2 (progn2 prey_move
+     prey_move) (progn2 prey_right prey_move))
+     (progn2 (progn2 prey_right prey_move) (progn2
+         prey_move prey_move)))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ right
+Tree 1:
+ (progn2 prey_move (progn2 prey_move prey_right))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-behind move right)
+     (if-prey-ahead right right))
+Tree 1:
+ (progn2 prey_move prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left left right) (if-prey-left
+     right left))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 prey_right
+     prey_move) (progn2 (progn2 prey_right prey_move)
+     (progn2 prey_move prey_right))) (progn2 (progn2
+     prey_move prey_move) (progn2 prey_right prey_move)))
+     (progn2 (progn2 prey_right prey_right) (progn2
+         prey_move prey_right)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left left (progn2 (progn2 right
+     right) (if-prey-left right move)))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 prey_move
+     prey_move) (progn2 prey_right prey_right))
+     (progn2 (progn2 prey_right prey_right) (progn2
+         prey_move prey_right))) (progn2 (progn2 prey_move
+     prey_move) (progn2 prey_move prey_move)))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-behind move right)
+     (if-prey-behind left move))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 prey_right
+     prey_right) (progn2 prey_move prey_move))
+     (progn2 (progn2 prey_move prey_move) (progn2
+         prey_right prey_move))) (progn2 (progn2 (progn2
+     prey_right prey_move) (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_move prey_right)))
+     (progn2 (progn2 prey_move prey_move) (progn2
+         prey_right prey_move))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move left)
+Tree 1:
+ (progn2 (progn2 prey_right (progn2 prey_move
+     prey_right)) (progn2 prey_right prey_move))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 right move)
+Tree 1:
+ prey_move
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move right)
+Tree 1:
+ prey_move
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (progn2 (progn2 (if-prey-ahead
+     left (if-prey-left (if-prey-left move right)
+     (if-prey-left left move))) right) right)
+     (if-prey-ahead move (progn2 move left)))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_right prey_move))
+     (progn2 (progn2 prey_right prey_right) (progn2
+         prey_move prey_move))) (progn2 (progn2 (progn2
+     prey_move prey_right) (progn2 prey_move prey_move))
+     (progn2 (progn2 prey_right prey_move) (progn2
+         prey_move prey_move)))) (progn2 (progn2 (progn2
+     (progn2 prey_move prey_move) (progn2 prey_move
+     prey_move)) (progn2 (progn2 prey_move prey_right)
+     (progn2 prey_right prey_move))) (progn2 (progn2
+     (progn2 prey_move prey_move) (progn2 prey_move
+     prey_right)) (progn2 (progn2 prey_move prey_move)
+     (progn2 prey_move prey_move)))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind right (if-prey-behind right
+     left))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_move prey_move))
+     (progn2 (progn2 prey_move prey_move) (progn2
+         prey_right prey_right))) prey_move) (progn2
+     (progn2 (progn2 (progn2 prey_right prey_move)
+         (progn2 prey_move prey_right)) (progn2 (progn2
+         prey_move prey_move) (progn2 prey_move prey_move)))
+     (progn2 (progn2 (progn2 prey_move prey_right)
+         (progn2 prey_move prey_move)) (progn2 (progn2
+         prey_right prey_move) (progn2 prey_right
+         prey_right)))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move right)
+Tree 1:
+ (progn2 (progn2 prey_right prey_right) prey_move)
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right move)
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 prey_move
+     prey_right) prey_right) (progn2 prey_right
+     prey_right)) (progn2 (progn2 prey_move prey_move)
+     (progn2 prey_move prey_right)))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left (progn2 move
+     move) (if-prey-behind left move)) (if-prey-behind
+     (if-prey-ahead move left) (if-prey-left right
+     move)))
+Tree 1:
+ prey_move
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right move)
+Tree 1:
+ (progn2 prey_right prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead move move)
+Tree 1:
+ (progn2 (progn2 prey_right (progn2 prey_move
+     prey_move)) prey_right)
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-left move left) right)
+Tree 1:
+ (progn2 prey_right prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left left move)
+Tree 1:
+ (progn2 prey_right prey_move)
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move (if-prey-left move (if-prey-left
+     left (if-prey-left left (if-prey-behind (if-prey-behind
+     (if-prey-ahead left right) (progn2 left right))
+     (if-prey-behind (if-prey-left move right)
+         (if-prey-left (if-prey-ahead right move)
+             right)))))))
+Tree 1:
+ (progn2 (progn2 (progn2 prey_right prey_right)
+     (progn2 prey_move prey_right)) (progn2 (progn2
+     (progn2 prey_move prey_move) (progn2 prey_move
+     prey_right)) (progn2 prey_move prey_move)))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 (if-prey-left move move) move)
+Tree 1:
+ (progn2 (progn2 prey_move prey_move) prey_move)
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ left
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move (progn2
+     prey_move prey_right)) (progn2 prey_right
+     prey_move)) (progn2 prey_move prey_right))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 (if-prey-left move move) move)
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) prey_move)
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move right)
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_right prey_move))
+     prey_move) (progn2 (progn2 (progn2 prey_right
+     prey_right) (progn2 prey_move prey_right))
+     (progn2 (progn2 prey_right prey_move) (progn2
+         prey_move prey_move)))) (progn2 (progn2 (progn2
+     (progn2 prey_right prey_move) (progn2 prey_right
+     prey_move)) (progn2 (progn2 prey_move prey_move)
+     (progn2 (progn2 (progn2 prey_right prey_move)
+         (progn2 prey_right prey_move)) (progn2 (progn2
+         prey_move (progn2 prey_move prey_right))
+         (progn2 prey_right prey_right))))) (progn2
+     (progn2 (progn2 prey_right prey_right) (progn2
+         prey_right prey_move)) (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_move prey_right)))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-left move move)
+     (if-prey-ahead move move))
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) prey_right)
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 left (if-prey-ahead right move))
+Tree 1:
+ (progn2 prey_right (progn2 (progn2 prey_move
+     prey_move) (progn2 prey_right prey_right)))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move right)
+Tree 1:
+ (progn2 prey_move (progn2 prey_move prey_move))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 left (progn2 left (if-prey-ahead
+     right move)))
+Tree 1:
+ (progn2 prey_move (progn2 (progn2 prey_move
+     prey_right) (progn2 prey_right prey_move)))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-left (if-prey-ahead
+     move (if-prey-left left right)) (progn2 right
+     move)) (progn2 (if-prey-behind (if-prey-left
+     right move) (progn2 move move)) (if-prey-ahead
+     (if-prey-left right move) (if-prey-left move
+     move))))
+Tree 1:
+ (progn2 (progn2 prey_move prey_move) (progn2
+     prey_right prey_move))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left left right) left)
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) (progn2
+     (progn2 prey_right (progn2 prey_right prey_move))
+     (progn2 (progn2 prey_move prey_right) (progn2
+         (progn2 (progn2 prey_move prey_move) (progn2
+             prey_right prey_move)) (progn2 prey_right
+         prey_right)))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-left move right)
+     (progn2 left left))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 prey_move
+     prey_right) prey_right) prey_right) (progn2
+     prey_move prey_move))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left right left) (if-prey-left
+     move (if-prey-left (if-prey-behind (if-prey-left
+     move move) (if-prey-left right move)) move)))
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move (progn2
+     (progn2 (progn2 prey_right prey_move) (progn2
+         (progn2 prey_move (progn2 prey_move prey_right))
+         (progn2 prey_right prey_move))) (progn2 (progn2
+     (progn2 prey_move prey_move) (progn2 prey_right
+     prey_right)) (progn2 (progn2 prey_move prey_right)
+     (progn2 prey_move prey_right))))) (progn2
+     (progn2 prey_move prey_right) prey_right))
+     (progn2 prey_move prey_right))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-ahead move (if-prey-ahead
+     move (if-prey-left move right))) (if-prey-left
+     left (if-prey-left (if-prey-ahead left left)
+     (if-prey-left right left))))
+Tree 1:
+ (progn2 (progn2 prey_right prey_right) (progn2
+     prey_move prey_right))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-left move (if-prey-left
+     left left)) (if-prey-left move move))
+Tree 1:
+ (progn2 prey_move prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move right)
+Tree 1:
+ (progn2 prey_move prey_right)
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left right move) (if-prey-left
+     move right))
+Tree 1:
+ (progn2 prey_right (progn2 (progn2 prey_move
+     prey_right) prey_right))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left left right)
+Tree 1:
+ (progn2 prey_move prey_move)
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left left right)
+Tree 1:
+ (progn2 (progn2 prey_right (progn2 prey_move
+     prey_right)) prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (progn2 (progn2 (progn2 (progn2
+     left right) (progn2 right move)) (progn2
+     (if-prey-ahead right left) (progn2 right
+     move))) (progn2 (progn2 left left) (if-prey-left
+     move move))) (progn2 (if-prey-behind (progn2
+     (if-prey-left move right) (if-prey-behind
+     left left)) (if-prey-behind (if-prey-ahead
+     move right) (if-prey-left left right))) (if-prey-ahead
+     (if-prey-ahead move (if-prey-left move right))
+     (if-prey-left (progn2 move move) (if-prey-left
+         move move)))))
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move prey_move)
+     (progn2 (progn2 prey_move prey_move) (progn2
+         prey_move (progn2 prey_move prey_move))))
+     (progn2 (progn2 prey_move prey_right) (progn2
+         prey_right prey_move)))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left right move) left)
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) (progn2
+     (progn2 prey_move prey_right) (progn2 prey_move
+     (progn2 (progn2 prey_move prey_move) (progn2
+         prey_right prey_move)))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right (if-prey-ahead (progn2
+     move move) (if-prey-left move left)))
+Tree 1:
+ (progn2 prey_move prey_move)
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-left move (progn2
+     (if-prey-left left right) (if-prey-left right
+     left))) right)
+Tree 1:
+ (progn2 prey_right prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-ahead (if-prey-left
+     right left) move) (if-prey-left (if-prey-left
+     right left) (if-prey-left (if-prey-ahead
+     (if-prey-left right left) move) (if-prey-left
+     (if-prey-ahead (if-prey-behind move left)
+         (if-prey-ahead move (if-prey-left move right)))
+     (if-prey-left right left)))))
+Tree 1:
+ prey_move
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left left right)
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) (progn2
+     prey_right prey_right))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left left right)
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move prey_right)
+     (progn2 prey_move prey_move)) (progn2 (progn2
+     prey_right prey_move) (progn2 (progn2 prey_move
+     prey_right) (progn2 prey_move prey_move))))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind left (if-prey-behind (if-prey-left
+     move move) (if-prey-left move right)))
+Tree 1:
+ (progn2 prey_move prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left right move) (if-prey-behind
+     move move))
+Tree 1:
+ (progn2 prey_right (progn2 prey_right prey_move))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ move
+Tree 1:
+ (progn2 prey_right prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 right left)
+Tree 1:
+ (progn2 prey_right prey_right)
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move left)
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move prey_move)
+     (progn2 prey_right prey_right)) (progn2 (progn2
+     prey_right prey_right) (progn2 (progn2 (progn2
+     prey_move prey_move) (progn2 prey_move (progn2
+     prey_move prey_move))) prey_right)))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ left
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 prey_move
+     prey_move) (progn2 prey_move prey_right))
+     prey_move) prey_right)
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move right)
+Tree 1:
+ (progn2 (progn2 prey_move (progn2 (progn2
+     (progn2 prey_move (progn2 (progn2 prey_move
+         prey_right) (progn2 prey_move (progn2 (progn2
+         prey_move prey_right) prey_right)))) prey_right)
+     (progn2 prey_right prey_move))) prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 move move)
+Tree 1:
+ (progn2 prey_move prey_move)
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-left right left)
+     (if-prey-ahead right left))
+Tree 1:
+ (progn2 prey_move prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (progn2 (progn2 (progn2 move
+     move) (progn2 (if-prey-ahead right left)
+     (progn2 right move))) (progn2 (if-prey-left
+     right move) (if-prey-ahead right left)))
+     (progn2 (if-prey-behind (progn2 (if-prey-left
+         move right) (if-prey-behind left left)) (if-prey-behind
+         (if-prey-ahead move right) (if-prey-left
+         left right))) (if-prey-ahead (if-prey-ahead
+         move (if-prey-ahead (if-prey-left right left)
+         move)) (if-prey-left (progn2 move move) (if-prey-left
+         move move)))))
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move (progn2
+     prey_move prey_move)) (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_move prey_move)))
+     (progn2 (progn2 (progn2 prey_right prey_move)
+         (progn2 prey_move prey_right)) (progn2 prey_right
+         prey_move)))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-left right move)
+     (if-prey-left (if-prey-ahead right move)
+         (if-prey-left right left)))
+Tree 1:
+ (progn2 prey_move prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left move right)
+Tree 1:
+ (progn2 prey_right (progn2 prey_right (progn2
+     prey_move prey_right)))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-left (if-prey-ahead
+     right move) left) move)
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) (progn2
+     prey_move prey_right))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-ahead (if-prey-left
+     left right) right) (if-prey-behind left move))
+Tree 1:
+ prey_right
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left (if-prey-left
+     right right) right) move)
+Tree 1:
+ (progn2 (progn2 (progn2 prey_right (progn2
+     (progn2 prey_move (progn2 prey_move (progn2
+         (progn2 (progn2 (progn2 prey_move (progn2
+             (progn2 prey_right (progn2 (progn2 (progn2
+                 prey_move prey_right) (progn2 prey_right
+                 prey_move)) prey_right)) (progn2 prey_move
+             prey_right))) (progn2 prey_right prey_move))
+             (progn2 prey_right prey_right)) (progn2 (progn2
+         prey_move prey_move) (progn2 prey_move (progn2
+         (progn2 prey_move prey_right) (progn2 prey_move
+         (progn2 (progn2 prey_move prey_move) (progn2
+             prey_right (progn2 prey_move (progn2 prey_move
+             prey_move))))))))))) (progn2 prey_move prey_right)))
+     (progn2 (progn2 prey_move prey_move) (progn2
+         prey_move prey_move))) (progn2 (progn2 prey_move
+     prey_move) (progn2 (progn2 prey_move prey_right)
+     (progn2 (progn2 (progn2 prey_move prey_right)
+         prey_right) (progn2 (progn2 (progn2 prey_move
+         prey_move) (progn2 prey_move prey_right))
+         (progn2 (progn2 prey_move prey_right) (progn2
+             (progn2 prey_move prey_right) prey_right)))))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-ahead (if-prey-behind
+     (if-prey-left (if-prey-ahead (if-prey-left
+         move right) right) (if-prey-behind left move))
+     (if-prey-behind (if-prey-left right move)
+         (if-prey-ahead move move))) (if-prey-left
+     (if-prey-left (if-prey-left right move) move)
+     right)) (if-prey-behind (if-prey-left (if-prey-ahead
+     (progn2 right move) (if-prey-left left right))
+     (if-prey-left right move)) (progn2 (if-prey-behind
+     (if-prey-left right move) (progn2 right move))
+     (if-prey-ahead (progn2 move move) (if-prey-left
+         move (if-prey-ahead (if-prey-left right right)
+         (if-prey-left right (if-prey-ahead (if-prey-left
+             right left) move))))))))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 prey_move
+     prey_right) (progn2 prey_move prey_right))
+     prey_move) (progn2 (progn2 prey_right prey_move)
+     (progn2 (progn2 (progn2 prey_move prey_move)
+         prey_move) (progn2 prey_move prey_right))))
+     (progn2 (progn2 (progn2 prey_right (progn2
+         prey_move prey_right)) (progn2 (progn2 prey_right
+         prey_move) (progn2 prey_right prey_move)))
+         prey_right))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left left (if-prey-ahead left right))
+Tree 1:
+ prey_right
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ left
+Tree 1:
+ prey_right
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right right)
+Tree 1:
+ (progn2 prey_move (progn2 (progn2 (progn2
+     prey_right prey_move) (progn2 (progn2 prey_move
+     prey_move) (progn2 (progn2 (progn2 prey_move
+     prey_move) (progn2 prey_move prey_right))
+     (progn2 prey_right prey_move)))) (progn2
+     (progn2 prey_move prey_right) (progn2 prey_right
+     prey_move))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (progn2 (progn2 (progn2 (progn2
+     left right) (if-prey-left right right)) (if-prey-left
+     right right)) (if-prey-ahead (if-prey-ahead
+     move (if-prey-ahead (if-prey-left right left)
+     move)) (if-prey-left (progn2 move move) (if-prey-left
+     move move)))) (progn2 left (if-prey-ahead
+     (if-prey-ahead move (if-prey-ahead (if-prey-left
+         right left) move)) (if-prey-left (progn2
+     move move) (if-prey-left move move)))))
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move (progn2
+     (progn2 prey_right prey_move) (progn2 prey_move
+     prey_right))) (progn2 (progn2 prey_move prey_move)
+     (progn2 prey_move prey_move))) (progn2 (progn2
+     prey_move prey_right) (progn2 prey_right
+     prey_move)))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right (if-prey-left left (if-prey-left
+     right right)))
+Tree 1:
+ (progn2 prey_move prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ right
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 prey_move
+     prey_right) (progn2 prey_move prey_right))
+     prey_move) (progn2 (progn2 prey_right prey_move)
+     (progn2 (progn2 (progn2 (progn2 prey_move
+         prey_move) prey_right) prey_move) (progn2
+         prey_move prey_right))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 left (if-prey-left move right))
+Tree 1:
+ (progn2 prey_move (progn2 prey_right (progn2
+     prey_move prey_right)))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-left right move)
+     (if-prey-ahead move move))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 prey_move
+     prey_right) prey_move) (progn2 (progn2 prey_move
+     (progn2 (progn2 prey_move prey_right) (progn2
+         prey_right prey_move))) prey_right)) prey_right)
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left left (if-prey-left right left))
+Tree 1:
+ (progn2 (progn2 prey_move (progn2 prey_move
+     prey_move)) prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-ahead (if-prey-behind
+     (if-prey-left (if-prey-ahead (if-prey-left
+         move right) right) (if-prey-behind left move))
+     (if-prey-behind (if-prey-left right move)
+         (progn2 move (if-prey-left move (progn2 right
+             left))))) (if-prey-left (if-prey-left (if-prey-left
+     right move) move) right)) (if-prey-behind
+     (if-prey-left (if-prey-behind left left)
+         (if-prey-left right move)) (progn2 (if-prey-behind
+     (if-prey-left right move) (progn2 right move))
+     (if-prey-ahead (progn2 move move) (if-prey-left
+         move (if-prey-ahead (if-prey-left right right)
+         (if-prey-left move right)))))))
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 (progn2
+     (progn2 prey_right prey_right) (progn2 prey_right
+     (progn2 prey_move prey_right))) prey_right)
+     (progn2 prey_move prey_right)) prey_move)
+     (progn2 (progn2 prey_move prey_right) (progn2
+         (progn2 (progn2 prey_move prey_right) prey_move)
+         (progn2 prey_right prey_move)))) (progn2
+     (progn2 (progn2 prey_right (progn2 prey_move
+         prey_right)) (progn2 (progn2 prey_right prey_move)
+         (progn2 prey_right prey_move))) prey_right))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left left (if-prey-left
+     right right)) move)
+Tree 1:
+ (progn2 prey_move prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right (if-prey-behind (if-prey-left
+     right move) (if-prey-ahead move move)))
+Tree 1:
+ (progn2 prey_right prey_move)
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-left left (if-prey-left
+     right right)) left)
+Tree 1:
+ prey_move
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (progn2 left right) (if-prey-left
+     right (if-prey-left left right)))
+Tree 1:
+ (progn2 prey_right (progn2 (progn2 (progn2
+     prey_right (progn2 (progn2 prey_right prey_right)
+     prey_move)) (progn2 (progn2 (progn2 prey_move
+     prey_right) prey_move) (progn2 prey_move
+     prey_right))) prey_right))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right (if-prey-left right right))
+Tree 1:
+ (progn2 prey_move (progn2 prey_right prey_right))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left move move) (if-prey-left
+     right (if-prey-left right right)))
+Tree 1:
+ (progn2 prey_move prey_right)
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right right)
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move (progn2
+     prey_right (progn2 prey_right (progn2 prey_right
+     prey_right)))) (progn2 prey_move prey_right))
+     prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 right left)
+Tree 1:
+ (progn2 (progn2 prey_move prey_move) prey_right)
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left right right)
+     (if-prey-left right (if-prey-behind (if-prey-left
+         left move) (if-prey-left (if-prey-left right
+         right) right))))
+Tree 1:
+ (progn2 prey_move (progn2 prey_move (progn2
+     (progn2 prey_move (progn2 (progn2 (progn2
+         prey_move prey_move) prey_move) prey_right))
+     (progn2 prey_right (progn2 prey_move prey_right)))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-left right move)
+     (if-prey-ahead right left))
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move prey_right)
+     (progn2 (progn2 prey_move prey_right) (progn2
+         prey_move prey_move))) prey_move)
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 (if-prey-ahead left (if-prey-left
+     right right)) (progn2 (if-prey-left right
+     (if-prey-left right right)) (if-prey-left
+     right left)))
+Tree 1:
+ (progn2 prey_move prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right (if-prey-left left right))
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) (progn2
+     prey_right prey_move))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-left (progn2 (if-prey-left
+     right right) (progn2 (if-prey-left left (if-prey-left
+     right right)) (progn2 (if-prey-left right
+     right) (progn2 left (progn2 left (if-prey-ahead
+     left (if-prey-left right right))))))) move)
+     move)
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move prey_right)
+     (progn2 prey_right (progn2 prey_move prey_right)))
+     prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-ahead left (if-prey-left
+     (if-prey-ahead right left) right)) (if-prey-behind
+     (if-prey-left (if-prey-ahead (progn2 right
+         move) (if-prey-left left right)) (if-prey-left
+         right move)) (progn2 (if-prey-behind (if-prey-left
+     right move) right) (if-prey-ahead (progn2
+     move move) (if-prey-left move (if-prey-ahead
+     (if-prey-left (progn2 move right) right)
+     (if-prey-left left right)))))))
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move prey_right)
+     (progn2 prey_move prey_right)) prey_move)
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 (if-prey-ahead left (if-prey-left
+     (if-prey-ahead (if-prey-ahead (progn2 left
+         right) left) right) move)) (progn2 (if-prey-left
+     right right) (progn2 left (progn2 left right))))
+Tree 1:
+ (progn2 prey_move prey_right)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-ahead move right)
+     (progn2 right (if-prey-left left right)))
+Tree 1:
+ (progn2 prey_right prey_right)
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead left (if-prey-behind (if-prey-left
+     left move) (if-prey-left (if-prey-left right
+     right) right)))
+Tree 1:
+ (progn2 prey_move prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ left
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) (progn2
+     prey_move prey_right))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left right (if-prey-left right right))
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move (progn2
+     prey_right (progn2 prey_right (progn2 prey_right
+     prey_right)))) (progn2 prey_move prey_right))
+     prey_move)
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-left right move)
+     (progn2 (if-prey-left (if-prey-left (if-prey-left
+         move right) (if-prey-left right (if-prey-left
+         left right))) left) left))
+Tree 1:
+ (progn2 (progn2 prey_right prey_move) (progn2
+     (progn2 (progn2 prey_move prey_right) (progn2
+         prey_right prey_move)) prey_right))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-behind (progn2 (if-prey-left
+     left (if-prey-left right right)) (progn2
+     (if-prey-left right right) (progn2 left (progn2
+     left (if-prey-left right right))))) (if-prey-left
+     move right)) right)
+Tree 1:
+ (progn2 prey_right (progn2 (progn2 prey_move
+     prey_right) prey_right))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 right left)
+Tree 1:
+ (progn2 (progn2 prey_right prey_move) (progn2
+     prey_move prey_right))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (progn2 left (progn2 left
+     (progn2 left (if-prey-ahead left (if-prey-behind
+         (progn2 left (progn2 (if-prey-behind (if-prey-left
+             right right) (if-prey-left (if-prey-left
+             right right) (if-prey-ahead (if-prey-left
+             right right) right))) (progn2 left (progn2
+             left (progn2 left (if-prey-ahead left (if-prey-left
+             (if-prey-ahead (if-prey-left left right)
+                 left) left))))))) (if-prey-left (if-prey-left
+         right right) right)))))) left)
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move prey_right)
+     prey_right) (progn2 (progn2 (progn2 prey_right
+     prey_move) (progn2 (progn2 prey_move prey_right)
+     (progn2 (progn2 (progn2 prey_move prey_move)
+         (progn2 prey_right (progn2 prey_move prey_right)))
+         prey_move))) (progn2 prey_move prey_right)))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 move move)
+Tree 1:
+ (progn2 (progn2 prey_right prey_right) (progn2
+     prey_move prey_right))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-left right right)
+     (if-prey-left right (if-prey-behind (if-prey-left
+         right right) move)))
+Tree 1:
+ (progn2 prey_right (progn2 prey_move prey_move))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (progn2 right (if-prey-ahead right left))
+Tree 1:
+ (progn2 (progn2 prey_move prey_right) (progn2
+     (progn2 prey_right prey_move) prey_move))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-left (if-prey-ahead (progn2 left
+     (progn2 left (progn2 left (if-prey-ahead
+         left (if-prey-behind (if-prey-left left move)
+         (if-prey-left (if-prey-left right right)
+             right)))))) left) (if-prey-left (if-prey-ahead
+     (if-prey-left right left) left) left))
+Tree 1:
+ (progn2 prey_move (progn2 prey_move (progn2
+     (progn2 (progn2 (progn2 prey_move prey_right)
+         prey_right) (progn2 prey_move prey_right))
+     (progn2 (progn2 (progn2 prey_move prey_right)
+         (progn2 prey_move prey_right)) (progn2 prey_move
+         prey_right)))))
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-ahead (if-prey-left (progn2 move
+     move) left) move)
+Tree 1:
+ (progn2 (progn2 (progn2 prey_move prey_right)
+     (progn2 prey_right prey_move)) prey_move)
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ left
+Tree 1:
+ prey_right
+
+
+Best Individual's Map
+=====================
+Simulation Map:
+#...................p.........
+..............................
+........p.....................
+..............................
+...............p....p.........
+..............................
+..............................
+..p...........................
+.................p............
+..............................
+...............p..............
+..............................
+..............................
+..............................
+..............................
+..............p...............
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+...........................p..
+..............................
+..............................
+..............................
+........................p.....
+..............................
+..............................
+..............................
+Subpopulation 1:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (if-prey-behind (if-prey-behind left move)
+     left)
+Tree 1:
+ (progn2 (progn2 (progn2 (progn2 (progn2 prey_right
+     prey_move) (progn2 prey_move prey_move))
+     (progn2 (progn2 prey_right prey_right) (progn2
+         prey_right prey_move))) (progn2 (progn2 (progn2
+     prey_right prey_right) (progn2 prey_move
+     prey_move)) (progn2 (progn2 prey_move prey_move)
+     (progn2 prey_right prey_move)))) (progn2
+     (progn2 (progn2 (progn2 prey_right prey_right)
+         (progn2 prey_right prey_move)) (progn2 (progn2
+         prey_move prey_right) (progn2 prey_right
+         prey_right))) (progn2 (progn2 (progn2 prey_move
+     prey_right) (progn2 prey_move prey_right))
+     (progn2 (progn2 prey_right prey_move) (progn2
+         prey_right prey_move)))))
+
+
+Best Individual's Map
+=====================
+Simulation Map:
+#...................p.........
+..............................
+........p.....................
+..............................
+...............p....p.........
+..............................
+..............................
+..p...........................
+.................p............
+..............................
+...............p..............
+..............................
+..............................
+..............................
+..............................
+..............p...............
+..............................
+..............................
+..............................
+..............................
+..............................
+..............................
+...........................p..
+..............................
+..............................
+..............................
+........................p.....
+..............................
+..............................
+..............................

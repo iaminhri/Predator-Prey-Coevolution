@@ -1,0 +1,62 @@
+# Parameters for the entire evolution run
+parent.0 = koza.params
+
+# Number of evolutionary generations
+generations = 51
+
+# Population size for predators
+pop.subpop.0.size = 100
+
+# Population size for prey
+pop.subpop.1.size = 100
+
+# Number of moves for each individual
+moves = 100
+
+# Number of prey in the environment
+prey_amount = 5
+
+# Function set for predators
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.name = f0
+gp.fs.0.size = 2
+
+gp.fs.0.func.0 = functions.PredMoves
+gp.fs.0.func.0.name = PredMoves
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.0.is_commutative = true
+
+gp.fs.0.func.1 = functions.Right
+gp.fs.0.func.1.name = Right
+gp.fs.0.func.1.nc = nc2
+
+# Function set for prey
+gp.fs.1 = ec.gp.GPFunctionSet
+gp.fs.1.name = f1
+gp.fs.1.size = 2
+
+gp.fs.1.func.0 = functions.PreyMoves
+gp.fs.1.func.0.name = PreyMoves
+gp.fs.1.func.0.nc = nc0
+gp.fs.1.func.0.is_commutative = true
+
+gp.fs.1.func.1 = functions.PreyRight
+gp.fs.1.func.1.name = PreyRight
+gp.fs.1.func.1.nc = nc2
+
+# Evaluation method for predators
+pop.subpop.0.species.evaluator = functions.PreyMoves
+
+# Evaluation method for prey
+pop.subpop.1.species.evaluator = functions.PredMoves
+
+pop.subpop.0.species.pipe.source.0.source.1 = same
+
+# Problem class
+eval.problem = predator_prey_main.PredatorPrey
+eval.problem.data = ec.gp.GPData
+eval.problem.moves = 100
+
+eval.problem.prey_amount = 5
+
+
