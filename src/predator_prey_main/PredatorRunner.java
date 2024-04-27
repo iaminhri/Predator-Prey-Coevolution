@@ -11,7 +11,7 @@ public class PredatorRunner {
 //		String statisticType = "ec.gp.koza.KozaShortStatistics";
 		
 		String[] runConfig = new String[] {
-				Evolve.A_FILE, "src/predator_prey_main/coevolve2.params",
+				Evolve.A_FILE, "src/predator_prey_main/coevolve3.params",
 //				"-p", ("stat="+statisticType), 
 				"-p", ("stat.file=$" + pathToFiles + "out.stat"),
 				"-p", ("jobs=" + numOfJobs)
